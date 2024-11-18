@@ -1,0 +1,43 @@
+HR = ['Absenteeism', 'Applicant', 'Attrition', 'Benefits', 'Compensation', 'Compliance', 'Conflict Resolution', 'Diversity', 'Inclusion', 'Employee Engagement', 'Employee Relations', 'Employee Retention', 'HR Analytics', 'HRIS', 'Job Description', 'Onboarding', 'Organizational Development', 'Payroll', 'Performance Appraisal', 'Recruitment', 'Succession Planning', 'Talent Acquisition', 'Training', 'Development', 'Workforce Planning', 'Contract', 'Employment Agreement', 'Job Offer', 'Offer Letter', 'Appointment Letter', 'Salary Slip', 'Pay Stub', 'Compensation Package', 'Bonus', 'Incentive', 'Promotion', 'Termination Letter', 'Resignation Letter', 'Reference Letter', 'Recommendation Letter', 'Non-Disclosure Agreement', 'Non-Compete Agreement', 'Employee Handbook', 'Policy Manual', 'Code of Conduct', 'Performance Review', 'Appraisal Form', 'Leave Application', 'Attendance Record', 'Work Schedule', 'Timesheet', 'Grievance Form', 'Disciplinary Action', 'Exit Interview', 'Severance Package', 'Salary', 'Offer', 'Letter', 'Agreement', 'Hiring', 'Employ', 'Employs', 'Employment', 'Interview', 'Shortlist', 'Case-study', 'Technical Support', 'Help Desk', 'Slot']
+Admin = ['Office Supplies', 'Stationery', 'Meeting Room', 'Conference Room', 'Reception', 'Front Desk', 'Visitor Log', 'Security Badge', 'Office Furniture', 'Desk', 'Chair', 'Filing Cabinet', 'Whiteboard', 'Projector', 'Scanner', 'Fax Machine', 'Telephone', 'Intercom', 'Air Conditioner', 'Heating System', 'Lighting', 'Janitorial Services', 'Cleaning Supplies', 'Restroom', 'Break Room', 'Vending Machine', 'Water Cooler', 'Microwave', 'Refrigerator', 'Coffee Maker', 'Shredder', 'Mail Room', 'Courier Services', 'Office Keys', 'Access Control', 'Emergency Exits', 'Fire Extinguisher', 'First Aid Kit', 'Office Layout', 'Workspace', 'Table Tennis', 'Paddle', 'Ball', 'Net', 'Foosball', 'Table', 'Rod', 'Ball', 'Darts', 'Dartboard', 'Bullseye', 'Score', 'Throw', 'Billiards', 'Pool', 'Cue', 'Cue Ball', 'Rack', 'Pocket', 'Chalk', 'Gym', 'Fitness Area', 'Treadmill', 'Dumbbells', 'Yoga Mat', 'Resistance Bands', 'Exercise Bike', 'Weights', 'Other Recreational Activities', 'Chess', 'Chessboard', 'Carrom', 'Board', 'Playing Cards', 'Board Games', 'Video Game Console', 'PlayStation', 'Xbox', 'Pantry', 'Table tennis', 'Table', 'Guest', 'Guests', 'Residence', 'Washroom', 'Room', 'Tap', 'Flush', 'Clean', 'Cleaning', 'Cleanliness', 'Water', 'Dispensary', 'Toilet', 'Bathroom', 'Shower', 'Basin', 'Mirror', 'Tea machine', 'Tea', 'Coffee machine', 'Coffee', 'Cup', 'AC', 'Fan', 'Window', 'Glass']
+Hardware = ['Processor', 'CPU', 'GPU', 'Motherboard', 'RAM', 'Hard Drive', 'SSD', 'Power Supply', 'Cooling Fan', 'Heat Sink', 'Network Card', 'Sound Card', 'Graphics Card', 'Peripheral', 'Monitor', 'Keyboard', 'Mouse', 'Printer', 'Scanner', 'Webcam', 'Microphone', 'Speaker', 'USB Drive', 'External Hard Drive', 'Configuration', 'Repair', 'Upgrade', 'Inventory Management', 'Asset Tracking', 'Warranty Management', 'Hardware Lifecycle', 'Preventive Maintenance', 'Diagnostics', 'Hardware Testing', 'Benchmarking', 'Router', 'Switch', 'Modem', 'Ethernet Cable', 'Wi-Fi', 'LAN', 'WAN', 'VPN', 'Firewall', 'Network Security', 'Bandwidth', 'IP Address', 'MAC Address', 'NAS', 'SAN', 'RAID', 'Backup', 'Data Recovery', 'Cloud Storage', 'Tape Drive', 'Optical Drive', 'Xerox', 'Network', 'Wifi', 'Circuit Board', 'PCB', 'Chipset', 'Connector', 'Port', 'Firmware', 'BIOS', 'UEFI', 'ESD', 'EMI']
+SI = ['Installer', 'Setup File', 'Installation Wizard', 'Package Manager', 'Configuration File', 'License Key', 'Activation Code', 'Installation Path', 'Dependencies', 'System Requirements', 'Compatibility', 'Installation Log', 'Uninstaller', 'Download', 'Install', 'Configure', 'Update', 'Upgrade', 'Patch', 'Rollback', 'Reinstall', 'Uninstall', 'Deployment', 'Provisioning', 'Scripting', 'Automation', 'MSI', 'EXE', 'RPM', 'DEB', 'Ansible', 'Puppet', 'Chef', 'CI/CD', 'Virtual Machine', 'Containerization', 'Installation Guide', 'User Manual', 'Troubleshooting', 'Error Code', 'Log File', 'Backup', 'Restore', 'Licensing Agreement', 'Compliance', 'Security Patch', 'Hotfix', 'Service Pack', 'Docker', 'Kubernetes', 'Jenkins']
+Software = ['Code', 'Programming', 'Debugging', 'Version Control', 'Repository', 'Branch', 'Merge', 'Commit', 'Pull Request', 'Code Review', 'Refactoring', 'Unit Testing', 'Integration Testing', 'Agile', 'Scrum', 'Sprint', 'Kanban', 'Backlog', 'User Story', 'Epic', 'Task', 'Bug', 'Feature', 'Microservices', 'Monolithic', 'API', 'RESTful Services', 'SOAP', 'Middleware', 'Framework', 'Library', 'SDK', 'IDE', 'Git', 'JIRA', 'Confluence', 'Slack', 'Trello', 'Visual Studio Code', 'IntelliJ IDEA', 'Eclipse', 'PyCharm', 'Postman', 'Swagger', 'Selenium', 'JUnit', 'Mockito', 'Java', 'Python', 'JavaScript', 'TypeScript', 'C', 'C++', 'Ruby', 'PHP', 'Swift', 'Kotlin', 'Go', 'Rust', 'SQL', 'NoSQL', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Cassandra', 'Oracle', 'SQLite', 'AWS', 'Azure', 'Google Cloud Platform', 'Cloud Storage', 'Serverless', 'Lambda', 'EC2', 'S3']
+
+
+# Function to check if any word in the sentence is in list a1
+def check_words_in_list(sentence):
+    # Split the sentence into words
+    words = sentence.split()
+    
+    # Convert all words to lowercase for case-insensitive comparison
+    words = [word.lower() for word in words]
+    HR_lower = [word.lower() for word in HR]
+    Admin_lower = [word.lower() for word in Admin]
+    Hardware_lower = [word.lower() for word in Hardware]
+    SI_lower = [word.lower() for word in SI]
+    Software_lower = [word.lower() for word in Software]
+  
+  
+    
+    # Check if any word in the list
+    for word in words:
+        if word in HR_lower:
+            return 'Human Resources (HR) department', sentence
+        elif word in Admin_lower:
+            return 'Administrative department', sentence
+        elif word in SI_lower:
+            return 'Software Installation department', sentence
+        elif word in Software_lower:
+            return 'Software department', sentence
+        elif word in Hardware_lower:
+            return 'Hardware department', sentence
+    return 'Other department', sentence
+
+# Take input sentence from user
+input_sentence = input("Raise ticket here: ")
+
+# Check and print the result
+result, original_sentence = check_words_in_list(input_sentence)
+print(result)
+print(original_sentence)
